@@ -1,0 +1,32 @@
+.lifeline-wrapper {
+    height: 25%;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .lifeline {
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        border: 2px solid #230433;
+        background-color: #3f095a;
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+        color: #fff;
+        font-weight: bold;
+        transition: all .15s linear;
+
+        &.coming-soon {
+            font-size: 12px;
+            text-align: center;
+            color: grey;
+        }
+
+        &:hover {
+            background-color: #4b0e6a;
+        }
+    }
+}
